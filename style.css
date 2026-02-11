@@ -306,117 +306,92 @@ footer{
     align-items: center;
 }
 
-@media(max-width: 1135px){
-    .bowl-left{
-        flex-direction: column;
-        margin: 0;
-        gap: 15px;
-    }
-    .bowl-right{
-        flex-direction: column;
-        margin: 0;
-        gap: 15px;
-    }
-    .dish-left{
-        padding-bottom: 40px;
-        margin: 0;
-    }
-    .dish-right{
-        padding-bottom: 40px;
-        margin: 0;
-    }
-    .h2{
-    padding-bottom: 40px;
-    }
-}
-
-@media(max-width: 1035px){
+@media(max-width: 1280px){
     .setting-link{
         display: none;
     }
-    .nav-section{
-        margin: 0;
-    }
-}
-
-@media(max-width: 900px){
-    .order-section{
-        flex-direction: column;
-        height: 0;
-        margin: 0;
-        padding-bottom: 800px;
-        gap: 30px
-    }
-}
-
-@media(max-width: 805px){
-    .sakura-footer{
-        margin: 0;
-    }
-    .socialmedia{
-        margin: 0;
-    }
-    .footer-section{
-        justify-content: space-evenly;
-    }
-}
-
-@media(max-width: 660px){
     .navigation{
-        flex-direction: column;
-        padding-left: 0;
-        gap: 30px;
+        margin-left: 24px;
+        margin-right: 24px;
+        height: 112px;
     }
-}
-
-@media(max-width: 570px){
-    .padding-dish{
-        padding-right: 20px;
-    }
-    .dish-left{
-        text-align: center;
-    }
-    .dish-right{
-        text-align: center;
-    }
-    .footer-section{
-        flex-direction: column;
-        gap: 20px;
-    }
-    .socialmedia{
-        gap: 20px;
-    }
-}
-
-@media(max-width: 450px){
-    h2{
-        font-size: 48px;
-        padding-bottom: 25px;
-    }
-    .address-txt{
+    .phone-btn{
         font-size: 20px;
     }
-}
-
-@media(max-width: 420px){
     .main{
-        font-size: 60px;
+        font-size: 72px;
     }
-    .menu-pic{
-        height: 80%;
-        width: 80%;
+    .sub-main{
+        font-size: 20px;
     }
-}
-
-@media(max-width: 380px){
+    .hto-txt{
+        margin-top: 96px;
+        margin-bottom: 48px;
+        font-size: 64px;
+    }
+    .hto-pics{
+        width: 112px;
+        height: 112px;
+    }
+    .order-section-txt{
+        font-size: 32px;
+        margin-top: 8px;
+    }
+    .order-section{
+        margin-top: 96px;
+        margin-bottom: 96px;
+        margin-left: 24px;
+        margin-right: 24px
+    }
+    .menu-section{
+        padding-top: 96px;
+        padding-bottom: 96px;
+        gap: 32px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    h2{
+        margin-bottom: 12px;
+        font-size: 64px;
+    }
+    .bowl-left{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .dish-left{
+        margin-left: 24px;
+        font-size: 32px;
+    }
+    .bowl-right{
+        margin-left: 24px;
+        margin-right: 24px; 
+    }
+    .dish-right{
+        margin-right: 24px;
+        font-size: 32px;
+    }
+    .dish-description{
+        font-size: 24px;
+    }
+    .padding-dish{
+        padding-right: 80px;
+    }
+    .contact-main{
+        margin-top: 96px;
+        margin-bottom: 0;
+        font-size: 64px;
+    }
     .address{
-        flex-direction: column;
-        text-align: center;
+        font-size: 20px;
+    }
+    .socialmedia{
+        margin: 24px;
+    }
+    .sakura-footer{
+        margin: 24px;
     }
 }
 
-@media(max-width: 350px){
-    .sakura-footer{
-        height: 40px;
-    }
+@media(max-width: 767px){
+    
 }
