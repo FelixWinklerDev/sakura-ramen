@@ -400,9 +400,12 @@ footer{
 
 @media(max-width: 767px){
     .navigation{
-    margin-left: 16px;
-    margin-right: 16px;
-    height: 64px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .flower{
+        height: 44px;
+        width: 44px;
     }
     .phone-btn{
         font-size: 16px;
@@ -475,14 +478,12 @@ footer{
     .contact-main{
         margin-top: 72px;
         margin-bottom: 0;
-        font-size: 64px;
+        font-size: 40px;
     }
     .address{
         font-size: 20px;
         padding-bottom: 40px;
     }
-
-
     .socialmedia{
         margin-right: 16px;
     }
