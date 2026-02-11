@@ -509,4 +509,7 @@ footer{
     .address{
         font-size: 16px;
     }
+    .main{
+        margin: 12px;
+    }
 }
